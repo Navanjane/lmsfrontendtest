@@ -4,7 +4,7 @@ import "../assets/css/dashboardHeader.css"
 import AcDetails from '../utils/hooks/AcDetails';
 
 export default function TeacherDashboardHeader() {
-    const [sidebar, setsidebar] = useState(true);
+    const [sidebar, setsidebar] = useStat(true);
 
     const [teachProfilepic,profileDetails] =AcDetails()
 
